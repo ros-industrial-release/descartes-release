@@ -1,0 +1,18 @@
+ros-hydro-descartes-core (0.0.2-0raring) raring; urgency=high
+
+  * Created two new base class methods for trajectory points: clone and copy that preserve the prior semantics while making sure that the underlying data type is copied correctly
+  * Added install to CMakeLists.txt
+  * Removed the use of boost atomic and replaced with mutex in order to support old versions of boost library
+  * Added documentation
+  * Contributors: Jonathan Meyer, Shaun Edwards
+
+ -- Jorge Nicho <jnicho@swri.org>  Thu, 09 Apr 2015 05:00:00 -0000
+
+ros-hydro-descartes-core (0.0.1-0raring) raring; urgency=high
+
+  * Alpha Release
+  * Contributors: Jonathan Meyer, Purser Sturgeon II, Shaun Edwards, gavanderhoorn, jrgnicho, ros, ros-devel
+
+ -- Jorge Nicho <jnicho@swri.org>  Wed, 01 Apr 2015 05:00:00 -0000
+
+
