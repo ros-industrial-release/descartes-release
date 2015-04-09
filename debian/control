@@ -1,0 +1,12 @@
+Source: ros-hydro-descartes-moveit
+Section: misc
+Priority: extra
+Maintainer: Jorge Nicho <jnicho@swri.org>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-hydro-catkin, ros-hydro-cmake-modules, ros-hydro-descartes-core, ros-hydro-descartes-trajectory, ros-hydro-moveit-core, ros-hydro-moveit-ros-planning, ros-hydro-pluginlib, ros-hydro-rosconsole-bridge, ros-hydro-rosunit, ros-hydro-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-descartes-moveit
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-cmake-modules, ros-hydro-descartes-core, ros-hydro-descartes-trajectory, ros-hydro-moveit-core, ros-hydro-moveit-ros-planning, ros-hydro-pluginlib, ros-hydro-rosconsole-bridge, ros-hydro-tf
+Description: Moveit wrapper functions for descartes base types
