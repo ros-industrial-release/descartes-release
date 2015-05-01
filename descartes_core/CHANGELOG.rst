@@ -2,6 +2,10 @@
 Changelog for package descartes_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.3 (2015-05-01)
+------------------
+* No changes
+
 0.0.2 (2015-04-09)
 ------------------
 * Created two new base class methods for trajectory points: clone and copy that preserve the prior semantics while making sure that the underlying data type is copied correctly
