@@ -1,8 +1,0 @@
-ros-hydro-descartes (0.0.2-0quantal) quantal; urgency=high
-
-  * adds descartes metapackage
-  * Contributors: Jonathan Meyer, Ratnesh Madaan, Shaun Edwards, ratnesh
-
- -- Shaun Edwards <sedwards@swri.org>  Thu, 09 Apr 2015 05:00:00 -0000
-
-
